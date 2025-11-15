@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Onest';
+    --lightBG: #FBFBFB;
+    --darkBG: #162234;
+    --grey: #858990;
+    --accent: #2F80ED;
+    --grey2: #EBEBEB;
+    --dark-accent: #555A65;
+}
+
+body {
+    background: var(--lightBG);
+}
+
+h1 {
+    font-family: 'Coolvetica';
+}
+
+.active {
+    background: var(--accent);
+    color: white;
+}
