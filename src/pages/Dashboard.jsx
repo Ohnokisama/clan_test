@@ -14,6 +14,10 @@ const Dashboard = () => {
 
   const [visible, setVisible] = useState(false);
 
+  useEffect(() => {
+    document.title = "Dashboard | Clan Test"
+  }, [])
+
   const navItems = [
     { icon: <i className='ri-line-chart-line'></i>, label: "Overview", to: '/dashboard' },
     { icon: <i className='ri-goblet-line'></i>, label: "Detty December", to: '/users' },
