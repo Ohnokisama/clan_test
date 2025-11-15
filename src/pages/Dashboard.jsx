@@ -136,7 +136,7 @@ const Dashboard = () => {
                   Copy connection link <i className="ri-file-copy-line"></i>
                 </button>
               </Card>
-              <Card className={'p-0'}>
+              <Card className={'!p-0'}>
                 <div className="p-4 border-b border-slate-300">
                   <div className="flex justify-between mb-3">
                     <div className="py-2 flex gap-1 items-center">
@@ -244,7 +244,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="md:basis-1/3 flex flex-col gap-4">
-            <Card className={'relative p-0 h-[250px]'}>
+            <Card className={'relative !p-0 h-[250px]'}>
               <img src={BG} className='w-full h-full object-cover rounded-lg' alt="" />
               <div className="absolute w-full h-full rounded-lg top-0 left-0 bg-black/50 text-white p-4">
                 <h1 className="text-3xl">Flights booking</h1>
